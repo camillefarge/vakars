@@ -14,5 +14,27 @@ h1 {
   padding: 10px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  text-align: center; }
+  .ecran_connexion form input {
+    width: 100%;
+    padding: 15px;
+    font-size: 15px; }
+  .ecran_connexion form #mail {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: none;
+    opacity: 0.18; }
+  .ecran_connexion form #password {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    opacity: 0.14; }
+  .ecran_connexion form button {
+    padding: 15px 90px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    font-weight: 200; }
 
