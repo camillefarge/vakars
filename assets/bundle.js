@@ -1,2 +1,2 @@
 // console.log('Hello World');
-import "./styles/homepage.scss"
+import "./styles/style.scss"
