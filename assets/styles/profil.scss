@@ -1,0 +1,57 @@
+.ecran_profil {
+    background-color: $background-color;
+    height: 100%;
+    padding: 10px;
+
+    color: white;
+
+
+
+    #logo {
+        width: 70px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    #parametres {
+
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    #header_profil {
+        text-align: center;
+        margin-top: 100px;
+
+        img {
+            border-radius: 100%;
+            width: 150px;
+        }
+
+        h1 {
+            font-style: italic;
+        }
+    }
+
+    h2 {}
+
+    p {
+        margin-bottom: 70px;
+    }
+
+}
+
+.galerie_photo {
+
+    display: flex;
+    justify-content: flex-start;
+
+    flex-wrap: wrap;
+
+
+    img {
+        margin: 10px;
+    }
+}

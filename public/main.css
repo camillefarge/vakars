@@ -78,3 +78,35 @@ h1 {
     border-radius: 10px;
     font-weight: 200; }
 
+.ecran_profil {
+  background-color: #261032;
+  height: 100%;
+  padding: 10px;
+  color: white; }
+  .ecran_profil #logo {
+    width: 70px;
+    position: absolute;
+    top: 20px;
+    left: 20px; }
+  .ecran_profil #parametres {
+    position: absolute;
+    top: 20px;
+    right: 20px; }
+  .ecran_profil #header_profil {
+    text-align: center;
+    margin-top: 100px; }
+    .ecran_profil #header_profil img {
+      border-radius: 100%;
+      width: 150px; }
+    .ecran_profil #header_profil h1 {
+      font-style: italic; }
+  .ecran_profil p {
+    margin-bottom: 70px; }
+
+.galerie_photo {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+  .galerie_photo img {
+    margin: 10px; }
+
