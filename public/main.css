@@ -1,3 +1,18 @@
+body {
+  margin: 0px;
+  padding: 0px; }
+
+a {
+  color: white; }
+
 h1 {
   color: #3715f8; }
+
+.ecran_connexion {
+  background-color: #261032;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
