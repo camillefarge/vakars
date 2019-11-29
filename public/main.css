@@ -8,6 +8,46 @@ a {
 h1 {
   color: #3715f8; }
 
+.ecran_inscription {
+  background-color: #261032;
+  height: 100vh;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .ecran_inscription #logo {
+    width: 70px;
+    position: absolute;
+    top: 20px;
+    left: 20px; }
+  .ecran_inscription form input {
+    padding: 10px;
+    width: 80%;
+    font-size: 13px;
+    background: none;
+    border: none;
+    color: white;
+    border-bottom: 2px solid white; }
+  .ecran_inscription form textarea {
+    padding: 10px;
+    width: 80%;
+    font-size: 13px;
+    background: none;
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+    height: 50px; }
+  .ecran_inscription form button {
+    padding: 15px 90px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    font-weight: 200;
+    text-align: center;
+    width: 80%; }
+
 .ecran_connexion {
   background-color: #261032;
   height: 100vh;
