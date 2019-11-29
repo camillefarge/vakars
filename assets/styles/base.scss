@@ -11,8 +11,9 @@ $primary-font : 'Arial',
 sans-serif;
 $secondary-font : 'Montserrat',
 'sans-serif';
-$font-size-base : 16px;
+$font-size-base : 12px;
 
+$margin:4rem;
 $section-space:5rem;
 $gutters:11.25rem;
 
@@ -21,6 +22,27 @@ body {
     padding: 0px;
 }
 
+h1 {
+    color: $white;
+    font-family: arial;
+    font-size: 20px;
+}
+
+h2 {
+    color: $white;
+    font-family: arial;
+    font-size: 16px;
+}
+
+p {
+    color: $white;
+    font-family: $primary-font;
+    font-size: $font-size-base;
+}
+
+
+
 a {
     color: white;
+    font-family: $secondary-font;
 }
