@@ -91,9 +91,21 @@
   !*** ./assets/bundle.js ***!
   \**************************/
 /*! no exports provided */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nError: ENOENT: no such file or directory, open 'C:\\\\Users\\\\camil\\\\Desktop\\\\LPWebdesign\\\\dev\\\\vakars\\\\assets\\\\bundle.js'\");\n\n//# sourceURL=webpack:///./assets/bundle.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.scss */ \"./assets/styles/style.scss\");\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n// console.log('Hello World');\n\n\n//# sourceURL=webpack:///./assets/bundle.js?");
+
+/***/ }),
+
+/***/ "./assets/styles/style.scss":
+/*!**********************************!*\
+  !*** ./assets/styles/style.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./assets/styles/style.scss?");
 
 /***/ }),
 

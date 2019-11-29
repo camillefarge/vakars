@@ -1,0 +1,76 @@
+body {
+  margin: 0px;
+  padding: 0px; }
+
+h1 {
+  color: white;
+  font-family: arial;
+  font-size: 20px; }
+
+h2 {
+  color: white;
+  font-family: arial;
+  font-size: 16px; }
+
+p {
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 12px; }
+
+a {
+  color: white;
+  font-family: "Montserrat", "sans-serif"; }
+
+.hp {
+  background-color: #261032;
+  height: 100vh;
+  padding: 4rem; }
+  .hp_profil {
+    position: absolute;
+    right: 70px; }
+  .hp_title {
+    margin-top: 60px;
+    margin-bottom: 25px; }
+  .hp_notif {
+    display: flex;
+    background-color: #432752;
+    border-radius: 10px;
+    padding: 10px 20px; }
+    .hp_notif img {
+      margin-left: 10px;
+      margin-right: 30px; }
+    .hp_notif_text_invite {
+      margin-bottom: 5px; }
+    .hp_notif_text_event {
+      margin-top: 0px;
+      font-weight: 700;
+      font-style: italic;
+      font-family: "Montserrat", "sans-serif"; }
+  .hp_img {
+    margin-right: 20px; }
+  .hp_events_card {
+    display: inline-block;
+    margin: 0 30px 30px 0; }
+    .hp_events_card_text-wrapper {
+      position: absolute;
+      margin: 10px 10px; }
+      .hp_events_card_text-wrapper h2 {
+        margin-bottom: 5px; }
+      .hp_events_card_text-wrapper p {
+        margin-top: 0px; }
+  .hp_events_card--add {
+    background-color: #432752;
+    width: 137px;
+    height: 206px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; }
+
+.ecran_connexion {
+  background-color: #261032;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+

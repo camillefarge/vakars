@@ -1,0 +1,48 @@
+$black : rgb(22, 22, 22);
+$white : rgb(255, 255, 255);
+
+
+
+$background-color: #261032;
+$primary-color: #432752;
+$secondary-color : #4E3C58;
+
+$primary-font : 'Arial',
+sans-serif;
+$secondary-font : 'Montserrat',
+'sans-serif';
+$font-size-base : 12px;
+
+$margin:4rem;
+$section-space:5rem;
+$gutters:11.25rem;
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: $white;
+    font-family: arial;
+    font-size: 20px;
+}
+
+h2 {
+    color: $white;
+    font-family: arial;
+    font-size: 16px;
+}
+
+p {
+    color: $white;
+    font-family: $primary-font;
+    font-size: $font-size-base;
+}
+
+
+
+a {
+    color: white;
+    font-family: $secondary-font;
+}
