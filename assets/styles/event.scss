@@ -1,0 +1,64 @@
+.event {
+    background-color: $background-color ;
+    height: 100%;
+    // z-index: -1;
+
+    &_header {
+        
+        background-image: url(/assets/img/party-big.jpg);
+        background-repeat:no-repeat;
+        height: 200px;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+
+            &_text-wrapper {
+                position: absolute;
+                margin: 10px 10px;
+                height: 100%;
+                width: 100%;
+
+             
+               
+                h1 {
+                    text-align: center;
+                    // margin: 0 auto;
+                }
+
+                p {
+                    text-align: center;
+                } 
+            }
+        
+    }
+
+
+    h2 {
+        margin-top: 50px;
+        font-family: $secondary-font;
+        font-style: italic;
+        text-align: center;
+    }
+
+    h3 {
+        margin-top: 60px;
+    }
+
+    &_participants {
+        img {
+            width:35px;
+            height: 35px;
+            border-radius:35px;
+            margin-right: 20px;
+        }
+    }
+    
+
+    }
+
+
+// .event_header {
+//     height: 100px;
+//     background-image: url("assets/img/party-width.png");
+//     background-repeat:no-repeat;
+// }

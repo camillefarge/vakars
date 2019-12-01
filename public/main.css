@@ -12,6 +12,11 @@ h2 {
   font-family: arial;
   font-size: 16px; }
 
+h3 {
+  color: white;
+  font-family: arial;
+  font-size: 14px; }
+
 p {
   color: white;
   font-family: "Arial", sans-serif;
@@ -73,4 +78,33 @@ a {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.event {
+  background-color: #261032;
+  height: 100%; }
+  .event_header {
+    background-image: url(/assets/img/party-big.jpg);
+    background-repeat: no-repeat;
+    height: 200px; }
+    .event_header_text-wrapper {
+      position: absolute;
+      margin: 10px 10px;
+      height: 100%;
+      width: 100%; }
+      .event_header_text-wrapper h1 {
+        text-align: center; }
+      .event_header_text-wrapper p {
+        text-align: center; }
+  .event h2 {
+    margin-top: 50px;
+    font-family: "Montserrat", "sans-serif";
+    font-style: italic;
+    text-align: center; }
+  .event h3 {
+    margin-top: 60px; }
+  .event_participants img {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    margin-right: 20px; }
 
