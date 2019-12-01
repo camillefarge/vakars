@@ -21,27 +21,31 @@
 <body>
 
     <div class="event">
-            <div class="event_header">
-                    <!-- <img src="assets/img/party-big.jpg" alt=""> -->
-                    <div class="event_header_text-wrapper">
-                        <h1>Jour de l'an</h1>
-                        <p>16 rue Chepa</p>
-                    </div>
-                   
-                </div>
+        <div class="event_header">
+            <!-- <img src="assets/img/party-big.jpg" alt=""> -->
+            <div class="event_header_text-wrapper">
+                <h1>Jour de l'an</h1>
+                <p>16 rue Chepa</p>
+            </div>
+
+        </div>
 
 
 
         <main>
-        <h2>Vendredi 27 octobre 2019</h2>
+            <h2>Vendredi 27 octobre 2019</h2>
 
 
-        <!-- Cet h3 correspond au style du h1 dans index  -->
-        <h3>Adresse</h3>
-        <img src="assets/img/map.png" alt="map">
+            <!-- Cet h3 correspond au style du h1 dans index  -->
+
+            <section class="event_location">
+                    <h3>Adresse</h3>
+                    <img src="assets/img/map.png" alt="map">
+            </section>
+            
 
 
-        <section class="event_participants">
+            <section class="event_participants">
 
                 <h3>Participants</h3>
 
@@ -51,46 +55,60 @@
                 <img src="assets/img/participant.jpg" alt="participant-4">
                 <img src="assets/img/participant.jpg" alt="participant-5">
                 <img src="assets/img/participant.jpg" alt="participant-6">
-                <img src="assets/img/add-event.svg" alt="add-member">
+                <img src="assets/img/icon/icon_add.png" alt="add-member">
 
-        </section>
-
-        
+            </section>
 
 
-        <img src="" alt="chat">
-
-        <h3>Liste de course</h3>
-        <div class="searchbar">
-            <p>Ajouter des éléments à la liste</p>
-            <img src="" alt="loupe">
-        </div>
-
-        <img src="" alt="">
-        <p class="checked">Coca</p>
-        <img src="" alt="">
-        <p>Ice-tea</p>
-        <img src="" alt="">
-        <p class="taken">Chips</p>
+            <img class="event_chat-icon" src="assets/img/icon/icon_chat.png" alt="chat">
 
 
-        <h3>Galerie photo</h3>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <div>
-
-        </div>
-
-        
+            <section class="event_course">
+                <h3>Liste de course</h3>
+                <div class="event_course_searchbar">
+                    <p>Ajouter des éléments à la liste</p>
+                    <img src="assets/img/icon/icon_search.png" alt="loupe">
+                </div>
 
 
+                    <ul class="event_course_list">
+                        <li>
+                                <img src="assets/img/icon/icon_v.png" alt="">
+                                <p class="event_course_list_item checked">Coca</p>
+                        </li>
+                        <li>
+                                <img src="assets/img/icon/icon_v.png" alt="">
+                                <p class="event_course_list_item">Ice-tea</p>
+                        </li>
+                        <li>
+                                <img src="assets/img/icon/icon_v.png" alt="">
+                                <p class="event_course_list_item event_course_list_item--taken">Chips</p>
+                        </li>
+                    </ul>
+
+            </section>
+
+            <section class="event_pictures">
+            <h3>Galerie photo</h3>
+            <img  class="event_pictures_pic" src="assets/img/event-pic-square.jpg" alt="">
+            <img class="event_pictures_pic" src="assets/img/event-pic-square.jpg" alt="">
+            <img class="event_pictures_pic" src="assets/img/event-pic-square.jpg" alt="">
+            <div class="event_pictures_add">
+                <img src="assets/img/icon/icon_add-bg-color.svg" alt="">
+            </div>
+
+            </section>
 
 
-    </main>
+
+
+
+
+        </main>
     </div>
 
 
 
 </body>
+
 </html>
