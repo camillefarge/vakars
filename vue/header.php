@@ -31,7 +31,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="theme-color" content="#eee">
     <meta name="robots" content="noodp">
-    <link rel="canonical" href="https://devdocs.io">
+    <link rel="canonical" href="https://vakars.ovh">
     <link rel="manifest" href="manifest.json">
 </head>
 
