@@ -1,0 +1,59 @@
+.ecran_connexion {
+    background-color: $background-color;
+    height: 100vh;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+
+
+
+    form {
+
+        input {
+
+            width: 100%;
+
+            padding: 15px;
+            font-size: 15px;
+
+
+
+        }
+
+        #mail {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            border: none;
+
+            opacity: 0.18;
+
+        }
+
+        #password {
+
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            border: none;
+
+            opacity: 0.14;
+        }
+
+        button {
+            padding: 15px 90px;
+            background: none;
+            border: 2px solid white;
+            color: white;
+            border-radius: 10px;
+            font-weight: 200;
+        }
+    }
+
+    #inscription {}
+
+    .content {}
+}
