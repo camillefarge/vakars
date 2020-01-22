@@ -125,14 +125,11 @@ function supprimerfichier($id,$type){
         $req = 'SELECT url_photo_couv_event FROM event WHERE id_event="'.$id.'" LIMIT 1' ;
     }
     
-    echo $req;
-    
     $req_sql = $db->query($req);
         
     $resultat = $req_sql->fetch();
     $url = 'uploads/'.$resultat[0];
     
-    echo $url;
     
     if(file_exists($url)){
         unlink($url);
@@ -376,8 +373,6 @@ function participerEvent($id_event,$id_membre,$role){
     $db = dbConnect();
     
     $req_sql = 'INSERT INTO `particpation` (`id_participation`, `fk_id_event`, `fk_id_role`, `fk_id_user`, `etat_droit_entree`) VALUES (NULL, "'.$id_event.'", "'.$role.'", "'.$id_membre.'", 1);';
-    
-    echo $req_sql;
     
     $prepare = $db->prepare($req_sql);   
     $res = $prepare ->execute();
