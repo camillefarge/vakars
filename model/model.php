@@ -303,7 +303,7 @@ function afficherEvent($id){
         
     $req_sql = $db->query($req);
     
-    $events = $req_sql; //->fetch();
+    $events = $req_sql; 
         
     return $events;
 }
@@ -321,7 +321,7 @@ function afficherEventSolo($id_event){
         
     $req_sql = $db->query($req);
     
-    $eventSolo = $req_sql; //->fetch();
+    $eventSolo = $req_sql; 
         
     return $eventSolo;
 }
@@ -335,7 +335,7 @@ function rechercherEvent($event){
         
     $req_sql = $db->query($req);
     
-    $events = $req_sql; //->fetch();
+    $events = $req_sql; 
         
     return $events;
 }
@@ -408,7 +408,7 @@ WHERE fk_id_event="'.$id_event.'"';
         
     $req_sql = $db->query($req);
     
-    $participants = $req_sql; //->fetch();
+    $participants = $req_sql; 
         
     return $participants;
     
